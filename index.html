@@ -60,7 +60,7 @@ function calculateDuration() {
     let minutes = durationMinutes % 60;
 
     resultBox.classList.remove("d-none");
-    resultBox.innerHTML = `Duration: ${hours} hours and ${minutes} minutes`;
+    resultBox.innerHTML = `<p>Duration: ${hours} hours and ${minutes} minutes</P> <p>Total Min -->${(hours*60)+minutes}</P>`;
 }
 </script>
 
